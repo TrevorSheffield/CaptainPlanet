@@ -90,7 +90,7 @@
       <!-- Right Panel (Captain Planet Hero)-->
       <div class="col-lg-6">
         <!-- Captain Planet Image -->
-        <img src="../assetts/captain-planet.jpg" alt="" class="img captain-planet" style="position:absolute; top:50px; left: 80px; z-index: -20; height: 300px">
+        <img src="/Users/trev/Documents/week3/inclass/CaptainPlanet/assetts/captain-planet.jpg" alt="" class="img captain-planet" style="position:absolute; top:50px; left: 80px; z-index: -20; height: 300px">
       </div>
          <div class="col-lg-6">
         <!-- Nuke Planaet Image -->
@@ -103,7 +103,7 @@
     $(document).ready(function() {
       // Gets Link for Theme Song
       var audioElement = document.createElement("audio");
-      audioElement.setAttribute("src", "..assetts/captainplanet24.mp3");
+      audioElement.setAttribute("src", "/Users/trev/Documents/week3/inclass/CaptainPlanet/assetts/captainplanet24.mp3");
       
       //Nuke button - show image and play sound
 
@@ -111,7 +111,7 @@
          $(".captain-planet").animate({ opacity: "0" });
         $(".nukeEarth").animate({ height: "500px", visible: "true" });
    var audioElement2 = document.createElement("audio");
-      audioElement2.setAttribute("src", "..assetts/Explosion+2.mp3");
+      audioElement2.setAttribute("src", "/Users/trev/Documents/week3/inclass/CaptainPlanet/assetts/Explosion+2.mp3");
         audioElement2.play();
     
    
